@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stress Test Tool Index</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<h1>Hello</h1>
+<p>
+    <input type="text" id="username">
+</p>
+<p>
+    <input type="password" id="password">
+</p>
+<button onclick="login()">登录</button>
+<script>
+    function login() {
+        axios.post('/api/user/login', {
+            userAccount: $("#username").val(),
+            userPassword: $("#password").val()
+        }).then(function (res) {
+            console.log(res)
+        }).catch(function (err) {
+            console.log(err)
+        })
+    }
+</script>
+</body>
+</html>
