@@ -2,8 +2,7 @@ package com.cmrhyq.springbootinit.esdao;
 
 import com.cmrhyq.springbootinit.model.dto.post.PostEsDTO;
 import com.cmrhyq.springbootinit.model.dto.post.PostQueryRequest;
-import com.cmrhyq.springbootinit.model.entity.Post;
-import com.cmrhyq.springbootinit.service.PostService;
+
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;

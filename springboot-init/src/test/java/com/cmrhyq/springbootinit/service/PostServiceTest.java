@@ -2,7 +2,7 @@ package com.cmrhyq.springbootinit.service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.cmrhyq.springbootinit.model.dto.post.PostQueryRequest;
-import com.cmrhyq.springbootinit.model.entity.Post;
+
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,5 @@
 package com.cmrhyq.springbootinit.mapper;
 
-import com.cmrhyq.springbootinit.model.entity.Post;
 import java.util.Date;
 import java.util.List;
 import javax.annotation.Resource;
